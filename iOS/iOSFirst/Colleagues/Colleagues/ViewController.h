@@ -6,9 +6,17 @@
 //  Copyright © 2019 ITI. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : UIViewController
+{
+    NSMutableArray * nameArray ;
+    int counter;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+- (IBAction)prevBtn:(UIButton *)sender;
+- (IBAction)NextBtn:(UIButton *)sender;
 
 
 @end
