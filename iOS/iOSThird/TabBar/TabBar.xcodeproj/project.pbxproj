@@ -14,6 +14,7 @@
 		DE9C122E22649A3D00AEE403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C122C22649A3D00AEE403 /* LaunchScreen.storyboard */; };
 		DE9C123122649A3D00AEE403 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C123022649A3D00AEE403 /* main.m */; };
 		DE9C123922649B1E00AEE403 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9C123822649B1E00AEE403 /* SecondViewController.m */; };
+		DEF8E0082265C0D70087459C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF8E0072265C0D70087459C /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DE9C123022649A3D00AEE403 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE9C123722649B1E00AEE403 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		DE9C123822649B1E00AEE403 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DEF8E0062265C0D70087459C /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DEF8E0072265C0D70087459C /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				DE9C123022649A3D00AEE403 /* main.m */,
 				DE9C123722649B1E00AEE403 /* SecondViewController.h */,
 				DE9C123822649B1E00AEE403 /* SecondViewController.m */,
+				DEF8E0062265C0D70087459C /* ThirdViewController.h */,
+				DEF8E0072265C0D70087459C /* ThirdViewController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C123922649B1E00AEE403 /* SecondViewController.m in Sources */,
+				DEF8E0082265C0D70087459C /* ThirdViewController.m in Sources */,
 				DE9C122622649A3C00AEE403 /* ViewController.m in Sources */,
 				DE9C123122649A3D00AEE403 /* main.m in Sources */,
 				DE9C122322649A3C00AEE403 /* AppDelegate.m in Sources */,
